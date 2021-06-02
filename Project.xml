@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Login[
+<!ELEMENT Login (user*)>
+
+<!ELEMENT person ((email|username), password)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT username (#PCDATA)>	
+	<!ELEMENT password (#PCDATA)> 
+]>
+
+
+<Login>
+    <user>
+        <email>eqadir9@gmail.com</email>
+        <password>code0</password>
+    </user>
+</Login>
